@@ -1,0 +1,295 @@
+#!/bin/bash
+
+#            ---------------------------------------------------
+#                             Storm Framework
+#            ---------------------------------------------------
+#                  Copyright (C) <2020>  <Entynetproject>       
+#
+#        This program is free software: you can redistribute it and/or modify
+#        it under the terms of the GNU General Public License as published by
+#        the Free Software Foundation, either version 3 of the License, or
+#        any later version.
+#
+#        This program is distributed in the hope that it will be useful,
+#        but WITHOUT ANY WARRANTY; without even the implied warranty of
+#        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#        GNU General Public License for more details.
+#
+#        You should have received a copy of the GNU General Public License
+#        along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+printf '\033]2;Storm Framework\a'
+
+if [[ -d ~/storm ]]
+then
+{
+cd ~/storm
+mkdir etc/.disabled
+mv modules/payload/clang.rb etc/.disabled
+mv etc/modules/payload/clang.rb ~/storm/modules/payload
+cp etc/.disabled/clang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/batch.rb etc/.disabled
+mv etc/modules/payload/batch.rb ~/storm/modules/payload
+cp etc/.disabled/batch.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/python.rb etc/.disabled
+mv etc/modules/payload/python.rb ~/storm/modules/payload
+cp etc/.disabled/python.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/ruby.rb etc/.disabled
+mv etc/modules/payload/ruby.rb ~/storm/modules/payload
+cp etc/.disabled/ruby.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/cpp.rb etc/.disabled
+mv etc/modules/payload/cpp.rb ~/storm/modules/payload
+cp etc/.disabled/cpp.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/golang.rb etc/.disabled
+mv etc/modules/payload/golang.rb ~/storm/modules/payload
+cp etc/.disabled/golang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/java.rb etc/.disabled
+mv etc/modules/payload/java.rb ~/storm/modules/payload
+cp etc/.disabled/java.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/lua.rb etc/.disabled
+mv etc/modules/payload/lua.rb ~/storm/modules/payload
+cp etc/.disabled/lua.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/nodejs.rb etc/.disabled
+mv etc/modules/payload/nodejs.rb ~/storm/modules/payload
+cp etc/.disabled/nodejs.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/pascal.rb etc/.disabled
+mv etc/modules/payload/pascal.rb ~/storm/modules/payload
+cp etc/.disabled/pascal.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/perl.rb etc/.disabled
+mv etc/modules/payload/perl.rb ~/storm/modules/payload
+cp etc/.disabled/perl.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/php.rb etc/.disabled
+mv etc/modules/payload/php.rb ~/storm/modules/payload
+cp etc/.disabled/php.rb etc
+rm -rf etc/.disabled
+} &> /dev/null
+chmod +x storm
+./storm
+{
+cd ~/storm
+mkdir etc/.disabled
+mv modules/payload/clang.rb etc/.disabled
+mv etc/modules/payload/clang.rb ~/storm/modules/payload
+cp etc/.disabled/clang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/batch.rb etc/.disabled
+mv etc/modules/payload/batch.rb ~/storm/modules/payload
+cp etc/.disabled/batch.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/python.rb etc/.disabled
+mv etc/modules/payload/python.rb ~/storm/modules/payload
+cp etc/.disabled/python.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/ruby.rb etc/.disabled
+mv etc/modules/payload/ruby.rb ~/storm/modules/payload
+cp etc/.disabled/ruby.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/cpp.rb etc/.disabled
+mv etc/modules/payload/cpp.rb ~/storm/modules/payload
+cp etc/.disabled/cpp.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/golang.rb etc/.disabled
+mv etc/modules/payload/golang.rb ~/storm/modules/payload
+cp etc/.disabled/golang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/java.rb etc/.disabled
+mv etc/modules/payload/java.rb ~/storm/modules/payload
+cp etc/.disabled/java.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/lua.rb etc/.disabled
+mv etc/modules/payload/lua.rb ~/storm/modules/payload
+cp etc/.disabled/lua.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/nodejs.rb etc/.disabled
+mv etc/modules/payload/nodejs.rb ~/storm/modules/payload
+cp etc/.disabled/nodejs.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/pascal.rb etc/.disabled
+mv etc/modules/payload/pascal.rb ~/storm/modules/payload
+cp etc/.disabled/pascal.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/perl.rb etc/.disabled
+mv etc/modules/payload/perl.rb ~/storm/modules/payload
+cp etc/.disabled/perl.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/php.rb etc/.disabled
+mv etc/modules/payload/php.rb ~/storm/modules/payload
+cp etc/.disabled/php.rb etc
+rm -rf etc/.disabled
+} &> /dev/null
+else
+{
+ASESR="$( curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//' )"
+} &> /dev/null
+if [[ "$ASESR" != "" ]]
+then 
+cd ~
+{
+git clone https://github.com/entynetproject/storm.git
+cd $OLDPWD
+cd ~/storm
+mkdir etc/.disabled
+mv modules/payload/clang.rb etc/.disabled
+mv etc/modules/payload/clang.rb ~/storm/modules/payload
+cp etc/.disabled/clang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/batch.rb etc/.disabled
+mv etc/modules/payload/batch.rb ~/storm/modules/payload
+cp etc/.disabled/batch.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/python.rb etc/.disabled
+mv etc/modules/payload/python.rb ~/storm/modules/payload
+cp etc/.disabled/python.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/ruby.rb etc/.disabled
+mv etc/modules/payload/ruby.rb ~/storm/modules/payload
+cp etc/.disabled/ruby.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/cpp.rb etc/.disabled
+mv etc/modules/payload/cpp.rb ~/storm/modules/payload
+cp etc/.disabled/cpp.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/golang.rb etc/.disabled
+mv etc/modules/payload/golang.rb ~/storm/modules/payload
+cp etc/.disabled/golang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/java.rb etc/.disabled
+mv etc/modules/payload/java.rb ~/storm/modules/payload
+cp etc/.disabled/java.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/lua.rb etc/.disabled
+mv etc/modules/payload/lua.rb ~/storm/modules/payload
+cp etc/.disabled/lua.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/nodejs.rb etc/.disabled
+mv etc/modules/payload/nodejs.rb ~/storm/modules/payload
+cp etc/.disabled/nodejs.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/pascal.rb etc/.disabled
+mv etc/modules/payload/pascal.rb ~/storm/modules/payload
+cp etc/.disabled/pascal.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/perl.rb etc/.disabled
+mv etc/modules/payload/perl.rb ~/storm/modules/payload
+cp etc/.disabled/perl.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/php.rb etc/.disabled
+mv etc/modules/payload/php.rb ~/storm/modules/payload
+cp etc/.disabled/php.rb etc
+rm -rf etc/.disabled
+} &> /dev/null
+chmod +x storm
+./storm
+{
+cd ~/storm
+mkdir etc/.disabled
+mv modules/payload/clang.rb etc/.disabled
+mv etc/modules/payload/clang.rb ~/storm/modules/payload
+cp etc/.disabled/clang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/batch.rb etc/.disabled
+mv etc/modules/payload/batch.rb ~/storm/modules/payload
+cp etc/.disabled/batch.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/python.rb etc/.disabled
+mv etc/modules/payload/python.rb ~/storm/modules/payload
+cp etc/.disabled/python.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/ruby.rb etc/.disabled
+mv etc/modules/payload/ruby.rb ~/storm/modules/payload
+cp etc/.disabled/ruby.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/cpp.rb etc/.disabled
+mv etc/modules/payload/cpp.rb ~/storm/modules/payload
+cp etc/.disabled/cpp.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/golang.rb etc/.disabled
+mv etc/modules/payload/golang.rb ~/storm/modules/payload
+cp etc/.disabled/golang.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/java.rb etc/.disabled
+mv etc/modules/payload/java.rb ~/storm/modules/payload
+cp etc/.disabled/java.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/lua.rb etc/.disabled
+mv etc/modules/payload/lua.rb ~/storm/modules/payload
+cp etc/.disabled/lua.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/nodejs.rb etc/.disabled
+mv etc/modules/payload/nodejs.rb ~/storm/modules/payload
+cp etc/.disabled/nodejs.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/pascal.rb etc/.disabled
+mv etc/modules/payload/pascal.rb ~/storm/modules/payload
+cp etc/.disabled/pascal.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/perl.rb etc/.disabled
+mv etc/modules/payload/perl.rb ~/storm/modules/payload
+cp etc/.disabled/perl.rb etc
+rm -rf etc/.disabled
+mkdir etc/.disabled
+mv modules/payload/php.rb etc/.disabled
+mv etc/modules/payload/php.rb ~/storm/modules/payload
+cp etc/.disabled/php.rb etc
+rm -rf etc/.disabled
+} &> /dev/null
+else
+cd ~
+sleep 1
+exit
+fi
+fi
