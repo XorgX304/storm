@@ -20,7 +20,7 @@
 
 require 'optparse'
 
-class ThorCat
+class StormCat
   def initialize
     require 'ostruct'
     require 'socket'
@@ -83,7 +83,7 @@ optparse = OptionParser.new do |opts|
   opts.banner = "Usage: #{$0} [option] <arguments>"
   opts.separator ""
   opts.separator "Options: "
-  opts.on('-l', '--listen', "\n\tStart ThorCat listener.") do |mode|
+  opts.on('-l', '--listen', "\n\tStart StormCat listener.") do |mode|
     options[:method] = 0
   end
   opts.on('-p', '--port <local_port>', "\n\tPort used for listener.") do |port|
@@ -110,7 +110,7 @@ rescue OptionParser::InvalidOption, OptionParser::MissingArgument
   exit 666;   
 end
 
-rc = ThorCat.new
+rc = StormCat.new
 case options[:method].to_i
 when 0
   rc.listener(options[:port].to_i)
