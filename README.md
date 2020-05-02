@@ -1,7 +1,5 @@
 # Storm Framework
 
-![storm](https://user-images.githubusercontent.com/54115104/79224763-5e2c1c80-7e64-11ea-853a-f720a1c60cfb.jpeg)
-
 <p align="center">
   <a href="http://entynetproject.simplesite.com/">
     <img src="https://img.shields.io/badge/entynetproject-Ivan%20Nikolsky-blue.svg">
@@ -22,8 +20,6 @@
     <img src="https://img.shields.io/badge/twitter-entynetproject-blue.svg">
  </a>
 </p>
-
-![storm](https://user-images.githubusercontent.com/54115104/79493965-e3612e00-802a-11ea-9bb3-7329eb0e9063.png)
 
 ***
 
@@ -80,7 +76,7 @@ for you to master the Storm Framework.
 
 ```
 There are a lot of different payloads in Storm 
-Framework such as Shell, Python and C payloads.
+Framework such as Batch, PowerShell and C# payloads.
 ```
 
 * Powerful ThorCat listener.
@@ -90,8 +86,6 @@ There is a powerful ThorCat listener in Storm
 Framework that supports secure SSL connection 
 and other useful functions.
 ```
-
-![thorcat](https://user-images.githubusercontent.com/54115104/79493967-e3f9c480-802a-11ea-9195-814405207f0a.png)
 
 ***
     
@@ -109,7 +103,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 
 ```
     ---------------------------------------------------
-                     Storm Framework                  
+                      Storm Framework                                     
     ---------------------------------------------------
           Copyright (C) <2020>  <Entynetproject>
 
