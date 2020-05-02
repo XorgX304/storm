@@ -59,7 +59,7 @@ begin
         f.puts "using System.Diagnostics;"
         f.puts ""
         f.puts "namespace Templates"
-        f.puts "{
+        f.puts "{"
         f.puts "    class Payload"
         f.puts "    {"
         f.puts "        static void Main() {"
