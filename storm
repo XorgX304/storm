@@ -57,7 +57,7 @@ puts ""
 system("cat banner/banner.txt")
 puts ""
 puts "Storm Framework v1.0"
-puts "---------------------"
+puts "--------------------"
 puts ""
 
 loop do
