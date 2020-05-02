@@ -54,6 +54,8 @@ begin
     sleep(1)
     puts "#{g}Saving to #{file}..."
     sleep(0.5)
+    w = ENV['OLDPWD']
+    Dir.chdir(w)
     open(file, 'w') { |f|
         f.puts "using System;"
         f.puts "using System.Diagnostics;"
