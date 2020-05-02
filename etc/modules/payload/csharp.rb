@@ -77,6 +77,8 @@ begin
         f.puts "    }"
         f.puts "}"
     }
+    g = ENV['HOME']
+    Dir.chdir(g + "/storm")
     puts "#{s}Saved to #{file}!"
 rescue
     puts "#{e}Failed to generate payload!"
