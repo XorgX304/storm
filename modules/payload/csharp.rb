@@ -57,7 +57,6 @@ begin
     open(file, 'w') { |f|
         f.puts "using System;"
         f.puts "using System.Diagnostics;"
-        f.puts ""
         f.puts "namespace Templates"
         f.puts "{"
         f.puts "    class Payload"
