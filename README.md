@@ -79,10 +79,10 @@ There are a lot of different payloads in Storm
 Framework such as Batch, PowerShell and C# payloads.
 ```
 
-* Powerful ThorCat listener.
+* Powerful StormCat listener.
 
 ```
-There is a powerful ThorCat listener in Storm 
+There is a powerful StormCat listener in Storm 
 Framework that supports secure SSL connection 
 and other useful functions.
 ```
