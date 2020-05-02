@@ -53,6 +53,7 @@ location = Array[]
 pwd = 0
 
 system("clear")
+puts ""
 system("cat banner/banner.txt")
 puts ""
 puts "Storm Framework v1.0"
