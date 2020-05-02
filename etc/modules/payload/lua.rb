@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 #            ---------------------------------------------------
-#                             Storm Framework
+#                              Storm Framework
 #            ---------------------------------------------------
 #                  Copyright (C) <2020>  <Entynetproject>       
 #
